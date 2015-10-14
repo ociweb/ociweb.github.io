@@ -1,0 +1,274 @@
+/* Custom container */
+
+/* Replaced with normal container and standard footer */
+/*.container-narrow {
+  margin: 0 auto;
+  max-width: 700px; }
+
+.container-narrow > hr {
+  margin: 30px 0; }
+*/
+
+/* Replaced with standard BS3 Navbar */
+/*.navbar .nav {
+  float: right; }*/
+
+/* Jekyll Bootstrap Colors */
+h1, h2, h3, h4 {
+  color: #f22430;
+}
+#footer {
+  background-color: #fdcd60;
+}
+
+
+
+/* posts index */
+.post > h3.title {
+  position: relative;
+  padding-top: 10px; }
+
+.post > h3.title span.date {
+  position: absolute;
+  right: 0;
+  font-size: 0.9em; }
+
+.post > .more {
+  margin: 10px 0;
+  text-align: left; }
+
+/* post-full*/
+.post-full .date {
+  margin-bottom: 20px;
+  font-weight: bold; }
+
+/* tag_box */
+.tag_box {
+  list-style: none;
+  margin: 0;
+  overflow: hidden; }
+
+.tag_box li {
+  line-height: 28px; }
+
+.tag_box li i {
+  opacity: 0.9; }
+
+.tag_box.inline li {
+  float: left; }
+
+.tag_box a {
+  padding: 3px 6px;
+  margin: 2px;
+  background: #eee;
+  color: #555;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 1px dashed #cccccc; }
+
+.tag_box a span {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.tag_box a:hover {
+  background-color: #e5e5e5; }
+
+.tag_box a.active {
+  background: #57A957;
+  border: 1px solid #4c964d;
+  color: #FFF; }
+  
+@font-face {
+  font-family: "NotoSans-Bold";
+  src: url("../fonts/NotoSans-Bold.ttf")
+}
+@font-face {
+  font-family: "NotoSans-Reg";
+  src: url("../fonts/NotoSans-Regular.ttf")
+}
+
+html {
+  background-size: 1000px 3500px;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  html {
+    background-size: 768px 4200px;
+  }
+}
+body {
+  background-size: 2500px 3500px;
+  min-height: 100%;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  body {
+    background-size: 768px 4200px;
+  }
+}
+body > .container {
+  padding-top: 80px;
+}
+@media (min-width: 768px) {
+  body > .container {
+    padding-top: 80px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 970px !important;
+  }
+}
+.link:hover {
+  text-decoration: underline !important;
+}
+.navbar {
+  background-color: #222222;
+  border: none;
+  height: 68px !important;
+}
+@media (max-width: 768px) {
+  .navbar .navbar-header {
+    display: inline-block;
+  }
+  .navbar .navbar-text {
+    display: inline-block;
+    float: right;
+  }
+}
+.navbar .navbar-brand {
+  color: #00ccff !important;
+  font-family: NotoSans-Bold;
+  font-size: 18pt;
+  line-height: 150%;
+}
+.navbar .navbar-text {
+  padding: 15px 0;
+  margin: 0;
+  line-height: 150%;
+  font-size: 18pt;
+  font-family: NotoSans-Bold;
+}
+.navbar .navbar-text a {
+  color: #00ccff !important;
+  font-family: NotoSans-Bold;
+  display: inline-block;
+}
+.navbar .navbar-text a.link-github {
+  background: url('../img/github-logo.png') no-repeat top right;
+  background-size: 37px 37px;
+  width: 120px;
+  height: 37px;
+}
+@media (max-width: 412px) {
+  .navbar .navbar-text a.link-github {
+    background: none;
+    width: auto;
+  }
+}
+.navbar .navbar-text a.link-docs {
+  background: url('../img/document-icon.png') no-repeat top right;
+  background-size: 37px 37px;
+  width: 96px;
+  height: 37px;
+}
+@media (max-width: 412px) {
+  .navbar .navbar-text a.link-docs {
+    background: none;
+    width: auto;
+  }
+}
+.navbar .navbar-text .separator {
+  display: inline-block;
+  width: 30px;
+}
+h2 {
+  font-family: NotoSans-Reg;
+  color: #0099ff;
+  font-size: 32pt;
+}
+.introduction {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.head-empty {
+  margin-top: 66px;
+}
+.splash {
+  background: url("../img/main.jpg") no-repeat center center;
+  background-size: cover;
+  margin-top: 66px;
+  padding: 300px;
+}
+h3 {
+  font-family: NotoSans-Reg;
+  color: #3399ff;
+  font-size: 32pt;
+  margin-bottom: 20px;
+}
+.links {
+  text-align: center;
+  margin-top: 100px;
+}
+.links h3 {
+  font-family: NotoSans-Bold;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.links .btn {
+  padding: 20px;
+  margin-top: 20px;
+  width: 178px;
+  background-color: #333333;
+  border: none !important;
+  font-family: NotoSans-Bold;
+  font-size: 32pt;
+}
+.links .btn:hover {
+  text-decoration: underline;
+}
+.links .btn-github {
+  color: #00ccff;
+}
+.links .btn-docs {
+  color: #00ccff;
+}
+.links .separator {
+  display: inline-block;
+  width: 30px;
+}
+@media (max-width: 420px) {
+  .links .separator {
+    display: none;
+  }
+}
+.footer {
+  margin-top: 120px;
+  padding: 30px 30px 15px 30px;
+  font-family: NotoSans-Reg;
+  color: #333333;
+}
+.footer .separator-hr {
+  position: relative;
+  top: -25px;
+  margin: 0 auto;
+  border-top: 1px solid #333333;
+}
+.footer .copyright {
+  position: relative;
+  text-align: right;
+}
+@media (max-width: 1200px) {
+  .footer .copyright {
+    position: static;
+    top: 0;
+    text-align: left;
+  }
+}
+.footer .copyright a {
+  color: #00ccff;
+}
+.footer .copyright a:hover {
+  text-decoration: underline;
+}

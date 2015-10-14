@@ -1,90 +1,115 @@
----
-layout: default
-title: Jekyll &bull; Simple, blog-aware, static sites
-overview: true
----
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OCT</title>
 
-<section class="intro">
-  <div class="grid">
-    <div class="unit whole center-on-mobiles">
-      <p class="first">Transform your plain text into static&nbsp;websites and&nbsp;blogs.</p>
-    </div>
-  </div>
-</section>
-<section class="features">
-  <div class="grid">
-    <div class="unit one-third">
-      <h2>Simple</h2>
-      <p>
-        No more databases, comment moderation, or pesky updates to install—just <em>your content</em>.
-      </p>
-      <a href="/docs/usage/">How Jekyll works &rarr;</a>
-    </div>
-    <div class="unit one-third">
-      <h2>Static</h2>
-      <p><a href="http://daringfireball.net/projects/markdown/">Markdown</a> (or <a href="http://redcloth.org/textile">Textile</a>), <a href="https://github.com/Shopify/liquid/wiki">Liquid</a>, HTML <span class="amp">&amp;</span> CSS go in. Static sites come out ready for deployment.</p>
-      <a href="/docs/templates/">Jekyll template guide &rarr;</a>
-    </div>
-    <div class="unit one-third">
-      <h2>Blog-aware</h2>
-      <p>
-        Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here.
-      </p>
-      <a href="/docs/migrations/">Migrate your blog &rarr;</a>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
-<section class="quickstart">
-  <div class="grid">
-    <div class="unit golden-small center-on-mobiles">
-      <h3>Get up and running <em>in&nbsp;seconds</em>.</h3>
-    </div>
-    <div class="unit golden-large code">
-      <p class="title">Quick-start Instructions</p>
-      <div class="shell">
-        <p class="line">
-          <span class="path">~</span>
-          <span class="prompt">$</span>
-          <span class="command">gem install jekyll</span>
-        </p>
-        <p class="line">
-          <span class="path">~</span>
-          <span class="prompt">$</span>
-          <span class="command">jekyll new my-awesome-site</span>
-        </p>
-        <p class="line">
-          <span class="path">~</span>
-          <span class="prompt">$</span>
-          <span class="command">cd my-awesome-site</span>
-        </p>
-        <p class="line">
-          <span class="path">~/my-awesome-site</span>
-          <span class="prompt">$</span>
-          <span class="command">jekyll serve</span>
-        </p>
-        <p class="line">
-          <span class="output"># => Now browse to http://localhost:4000</span>
-        </p>
-      </div>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
-<section class="free-hosting">
-  <div class="grid">
-    <div class="unit whole">
-      <div class="grid pane">
-        <div class="unit whole center-on-mobiles">
-          <img src="img/octojekyll.png" width="300" height="251" alt="Free Jekyll hosting on GitHub Pages">
-          <div class="pane-content">
-            <h2 class="center-on-mobiles"><strong>Free hosting</strong> with GitHub Pages</h2>
-            <p>Sick of dealing with hosting companies? <a href="http://pages.github.com/">GitHub Pages</a> are <em>powered by Jekyll</em>, so you can easily deploy your site using GitHub for free&mdash;<a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">custom domain name</a> and&nbsp;all.</p>
-            <a href="http://pages.github.com/">Learn more about GitHub Pages &rarr;</a>
-          </div>
+    <link href="js/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="img/logo/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div>
+<div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand link" href="#home">OCT</a>
+            </div>
+            <p class="navbar-text navbar-right">
+                <a href="/news" class="navbar-link link link-news">News</a>
+                <a href="/cases" class="navbar-link link link-cases">Cases</a>
+                <a href="https://github.com/huawei-openlab/oct/" class="navbar-link link link-github">github</a>
+                <span class="separator"></span>
+                <a href="https://github.com/huawei-openlab/oct/blob/master/README.md" class="navbar-link link link-docs">Docs</a>
+            </p>
         </div>
-        <div class="clear"></div>
-      </div>
+    </nav>
+    <div class="splash">
     </div>
-  </div>
-</section>
+</div>
+<div class="container">
+	<h2>The open container testing framework.<br> Aims to promote open container initiative. <br><br></h2>
+    <div class="row">
+            <div class="col-md-6">
+                <h3>Scopes</h3>
+		<p class="paragraph-1">The open container testing framework covers 4 parts:</p>
+		<p class="paragraph-2">Verify if a image or a runtime was complicant with the <a href="https://github.com/opencontainers/specs">OCI standard.</a> </p>
+		<p class="paragraph-2">Test the io/network and other benchmark of running a container. </p>
+		<p class="paragraph-2">Make sure if a container runtime was fragile to the security attack.</p>
+		<p class="paragraph-4">Better understand the function of each container. </p>
+	</div>
+	<div class="col-md-6">
+                <img src="img/background/3.jpg" width="374">
+            </div>
+        </div>
+    <div class="row">
+	<div class="col-md-6">
+                <img src="img/background/1.jpg" width="374">
+        </div>
+        <div class="col-md-6">
+                <h3>Architecture</h3>
+		<p>The whole OCT including three main components. </p>
+		<p>Tools: open source tools used to test the most popular container products.</p>
+		<p>Case: Well defined specification with json format. Any case developers could write his/her own test case, either by his/her own tool or by the 'OCT tools'.</p>
+		<p>Engine: micro service, receive testcase, deploy to the according host operation system and container and run it. Collect and generate a readable test report.</p>
+        </div>
+    </div>
+    <div class="row">
+            <div class="col-md-6">
+                <h3>Tools</h3>
+		<p>Bundle Validator: verify if a image/bundle was a <a href="https://github.com/huawei-openlab/oct#standard-container">standard container.</a> 
+		<p>Runtime Validator: verify if a runtime was compliant with <a href="https://github.com/opencontainers/specs">OCI standard.</a> </p>
+		<p>Cadvisor/iperf: performance tools from community.</p>
+            </div>
+	    <div class="col-md-5">
+                <img src="img/tools.jpg" width="400" height="330" align="left">
+	</div>
+    </div>
+    <div class="row">
+	    <div class="col-md-6">
+		    <img src="img/background/2.jpg" width="374">
+	    </div>
+	    <div class="col-md-6">    
+	    <h3>Cases</h3>
+		<p>The<a href="https://github.com/huawei-openlab/oct-engine/blob/master/cases/README.md">Case</a> is easy to develop and maintain.</p>
+		<p>Using the 'case generator' tool and 'case validator' tool to make life eaiser. </p>
+		<p>Using the official casedb or<a href="https://github.com/huawei-openlab/oct-engine/blob/master/services/tcserver/README.md"> maintain own db. </a> are both OK.</p>
+            </div>
+    </div>
+    <div class="row">
+            <div class="col-md-6">
+		    <h3>Engine</h3>
+		    <p>The 'engine' composed of three services</p>
+		    <p>The test case server: provide valid test cases </p>
+		    <p>The testing server: provide servers to deploy/run tests</p>
+		    <p>The scheduler server: organize test cases and collect result</p>
+	    </div>
+	    <div class="col-md-6">
+		    <img src="img/test_framework.png" width="440">
+	    </div>
+    </div>
+    </div>
+    <div class="row links">
+        <div class="col-md-12">
+            <h3>Take part in developping OCT, join us.</h3>
+            <a href="https://github.com/huawei-openlab/oct/" class="btn btn-default btn-github">GITHUB</a>
+            <span class="separator"></span>
+            <a href="https://github.com/huawei-openlab/oct/blob/master/README.md" class="btn btn-default btn-docs">DOCS</a>
+        </div>
+    </div>
+    <div class="row footer">
+        <div class="separator-hr"></div>
+        <div class="col-md-6">
+		<img src="assets/themes/bootstrap-3/img/logo/favicon.ico" width="32"> <a href="https://github.com/huawei-openlab/">Join</a>
+        </div>
+        <div class="col-md-6">
+		<p class="copyright">Copyright &copy; 2015 Hua Wei Openlab. All Rights Reserved.</p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>
