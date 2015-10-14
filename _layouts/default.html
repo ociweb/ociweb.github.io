@@ -1,3 +1,66 @@
----
----
-{% include default.html %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap styles -->
+    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom styles -->
+    <link href="../assets/css/style.css" rel="stylesheet" type="text/css" media="all">
+
+  </head>
+
+  <body>
+    <div>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+              <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          </div>
+	  <!--
+          <ul class="nav navbar-nav navbar-right">
+            {% assign pages_list = site.pages %}
+            {% assign group = 'navigation' %}
+            {% include JB/pages_list %}
+	  </ul> -->
+
+           <p class="navbar-text navbar-right">
+           <a href="/news" class="navbar-link link link-news">News</a>
+           <a href="/cases" class="navbar-link link link-tc">Cases</a>
+           <a href="https://github.com/huawei-openlab/oct/" class="navbar-link link link-github">github</a>
+           <span class="separator"></span>
+           <a href="https://github.com/huawei-openlab/oct/blob/master/README.md" class="navbar-link link link-docs">Docs</a>
+           </p>
+        </div>
+      </nav>
+
+      <div class="head-empty">
+      </div>
+
+      <div class="container">
+        {{ content }}
+      </div>
+
+    </div>
+
+    <div class="row footer">
+      <div class="separator-hr"></div>
+      <div class="col-md-6">
+	      <img src="../assets/img/logo/favicon.ico" width="32"> <a href="https://github.com/huawei-openlab/">Join</a>
+      </div>
+      <div class="col-md-6">
+          <p class="copyright">Copyright &copy; 2015 Hua Wei Openlab. All Rights Reserved.</p>
+      </div>
+    </div>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
