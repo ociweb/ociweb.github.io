@@ -154,6 +154,18 @@ body > .container {
   font-family: NotoSans-Bold;
   display: inline-block;
 }
+.navbar .navbar-text a.link-logo {
+  background: url('../img/logo/favicon.ico') no-repeat top right;
+  background-size: 37px 37px;
+  width: 120px;
+  height: 37px;
+}
+@media (max-width: 412px) {
+  .navbar .navbar-text a.link-logo {
+    background: none;
+    width: auto;
+  }
+}
 .navbar .navbar-text a.link-github {
   background: url('../img/github-logo.png') no-repeat top right;
   background-size: 37px 37px;
