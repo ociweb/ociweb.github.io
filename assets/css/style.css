@@ -143,7 +143,7 @@ body > .container {
   line-height: 150%;
 }
 .navbar .navbar-brand a.link-logo {
-  background: url('../img/logo/favicon.ico') no-repeat top right;
+  background: url('../img/github-logo.png') no-repeat top right;
   background-size: 37px 37px;
   width: 120px;
   height: 37px;
