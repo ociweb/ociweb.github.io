@@ -207,12 +207,6 @@ h2 {
 .head-empty {
   margin-top: 66px;
 }
-.splash {
-  background: url("../img/main.jpg") no-repeat center center;
-  background-size: cover;
-  margin-top: 66px;
-  padding: 300px;
-}
 h3 {
   font-family: NotoSans-Reg;
   color: #3399ff;
