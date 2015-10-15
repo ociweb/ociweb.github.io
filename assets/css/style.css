@@ -155,7 +155,7 @@ body > .container {
   display: inline-block;
 }
 .navbar .navbar-text a.link-logo {
-  background: url('../img/logo/favicon.icon') no-repeat top right;
+  background: url('../img/logo/favicon-black.ico') no-repeat top right;
   background-size: 48px 48px;
   width: 120px;
   height: 48px;
