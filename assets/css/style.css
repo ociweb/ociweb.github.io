@@ -156,9 +156,9 @@ body > .container {
 }
 .navbar .navbar-text a.link-logo {
   background: url('../img/OCT-logo.svg') no-repeat top right;
-  background-size: 48px 48px;
-  width: 120px;
-  height: 48px;
+  background-size: 160px 160px;
+  width: 160px;
+  height: 160px;
 }
 @media (max-width: 412px) {
   .navbar .navbar-text a.link-logo {
