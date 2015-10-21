@@ -114,11 +114,6 @@ body > .container {
     padding-top: 80px;
   }
 }
-@media (min-width: 1200px) {
-  .container {
-    width: 970px !important;
-  }
-}
 .link:hover {
   text-decoration: underline !important;
 }
