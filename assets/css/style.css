@@ -180,6 +180,7 @@ h2 {
 }
 .head-splash {
   background: url('../img/frontpage.jpg') no-repeat top right;
+  height: 400px
 }
 
 h3 {
