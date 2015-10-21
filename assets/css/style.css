@@ -155,7 +155,7 @@ body > .container {
   display: inline-block;
 }
 .navbar .navbar-text a.link-logo {
-  background: url('../img/OCT-logo.png') no-repeat top right;
+  background: url('../img/OCT-logo.svg') no-repeat top right;
   background-size: 48px 48px;
   width: 48px;
   height: 48px;
