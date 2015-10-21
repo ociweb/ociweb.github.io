@@ -125,7 +125,7 @@ body > .container {
 .navbar {
   background-color: #222222;
   border: none;
-  height: 68px !important;
+  height: 50px !important;
 }
 @media (max-width: 768px) {
   .navbar .navbar-header {
@@ -140,7 +140,7 @@ body > .container {
   color: #00ccff !important;
   font-family: Dosis;
   font-size: 18pt;
-  line-height: 150%;
+  line-height: 100%;
 }
 .navbar .navbar-text {
   padding: 15px 0;
@@ -156,9 +156,9 @@ body > .container {
 }
 .navbar .navbar-text a.link-logo {
   background: url('../img/OCT-logo.svg') no-repeat top right;
-  background-size: 160px 160px;
-  width: 160px;
-  height: 160px;
+  background-size: 48px 48px;
+  width: 48px;
+  height: 48px;
 }
 @media (max-width: 412px) {
   .navbar .navbar-text a.link-logo {
