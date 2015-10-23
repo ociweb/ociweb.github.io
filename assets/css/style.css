@@ -179,9 +179,9 @@ h2 {
   margin-top: 57px;
 }
 .head-splash {
-  background: url('../img/frontpage.jpg') no-repeat top right;
-  background-size: 900px 400px;
-  width: 900px;
+  background: url('../img/frontpage.jpg') no-repeat top;
+  background-size: 1000px 400px;
+  width: 1000px;
   height: 400px;
   font-family: Lato;
   color: #ffffff;
