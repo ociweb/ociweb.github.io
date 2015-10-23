@@ -12,12 +12,6 @@ The OCT project aims to promote the [Open Container Initiative](http://www.openc
 
  OCT scope
 Following [the OCI Principles](https://github.com/opencontainers/specs): 
-`Define a unit of software delivery called a Standard Container.`
-`The goal of a Standard Container is to encapsulate a software component`
-`and all its dependencies in a format that is self-describing and portable,`
-`so that any compliant runtime can run it without extra dependencies,`
-`regardless of the underlying machine and the contents of the container.`
-
 OCT covers following areas:
 - [Bundle Validator](tools/bundleValidator/README.md) verifies if a bundle was a [Standard Container](standard-container).
 - [Runtime Validator](tools/runtimeValidator/README.md) verifies if a runtime runs the bundle [correctly](compliant-runtime).
