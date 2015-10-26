@@ -159,10 +159,11 @@ h2 {
 .head-empty {
   margin-top: 57px;
 }
-h1 {
+
+.head-big {
   font-family: Lato;
   color: #ffffff;
-  font-size:22pt;
+  font-size:26pt;
 }
 .head-splash {
   background: url('../img/frontpage.jpg') no-repeat top;
