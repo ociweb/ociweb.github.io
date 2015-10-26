@@ -148,7 +148,7 @@ body > .container {
 }
 h2 {
   font-family: Lato;
-  color: #0099ff;
+  color: #000000;
   font-size: 32pt;
 }
 .introduction {
@@ -181,8 +181,8 @@ h1 {
 
 h3 {
   font-family: Lato;
-  color: #3399ff;
-  font-size: 32pt;
+  color: #000000;
+  font-size: 28pt;
   margin-bottom: 20px;
 }
 .footer .btn {
