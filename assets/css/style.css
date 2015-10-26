@@ -181,16 +181,7 @@ h3 {
   font-size: 32pt;
   margin-bottom: 20px;
 }
-.links {
-  text-align: center;
-  margin-top: 100px;
-}
-.links h3 {
-  font-family: Dosis;
-  color: #000000;
-  margin-bottom: 20px;
-}
-.links .btn {
+.footer .btn {
   padding: 20px;
   margin-top: 20px;
   width: 178px;
@@ -199,16 +190,16 @@ h3 {
   font-family: Dosis;
   font-size: 32pt;
 }
-.links .btn:hover {
+.footer .btn:hover {
   text-decoration: underline;
 }
-.links .btn-github {
+.footer .btn-github {
   color: #00ccff;
 }
-.links .btn-docs {
+.footer .btn-docs {
   color: #00ccff;
 }
-.links .separator {
+.footer .separator {
   display: inline-block;
   width: 30px;
 }
