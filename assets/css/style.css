@@ -194,7 +194,15 @@ h1 {
 .head-splash h1 {
   font-family: Lato;
   color: #ffffff;
-  margin-top:200px;
+  margin-top: 120px;
+  margin-left: 500px;
+}
+
+.head-splash p {
+  font-family: Lato;
+  color: #ffffff;
+  margin-top: 40px;
+  margin-left: 500px;
 }
 
 h3 {
