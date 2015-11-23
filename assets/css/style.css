@@ -165,6 +165,7 @@ h2 {
   font-family: Lato;
   color: #c4feff;
   font-size: 32pt;
+  margin-top: 8px;
 }
 
 .head-empty {
@@ -188,6 +189,12 @@ h1 {
   font-family: Lato;
   color: #ffffff;
   font-size:16pt;
+}
+
+.head-splash h1 {
+  font-family: Lato;
+  color: #ffffff;
+  margin-top:200px;
 }
 
 h3 {
