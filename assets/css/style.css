@@ -69,7 +69,6 @@
 }
 
 html {
-  background: url('../img/oct-bg.png') no-repeat top center;
   background-size: 1000px 3500px;
   height: 100%;
 }
@@ -79,6 +78,7 @@ html {
   }
 }
 body {
+  background: url('../img/oct-bg.png') no-repeat top center;
   background-size: 2500px 3500px;
   min-height: 100%;
   margin: 0;
