@@ -152,9 +152,19 @@ h2 {
   color: #000000;
   font-size: 32pt;
 }
+
 .introduction {
   text-align: center;
   margin-top: 10px;
+  background-color: #093f6b;
+  width: 444px;
+  height: 67px;
+}
+
+.introduction h2 {
+  font-family: Lato;
+  color: #c4feff;
+  font-size: 32pt;
 }
 
 .head-empty {
