@@ -7,7 +7,7 @@
 /* posts index */
 .post > h3.title {
   position: relative;
-  padding-top: 10px; }
+  padding-top: 50px; }
 
 .post > h3.title span.date {
   position: absolute;
