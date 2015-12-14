@@ -214,8 +214,9 @@ h3 {
 .banner {
   font-family:DokChampa;
   color:#c4feff;
-  font-size:70pt;
-  margin-top:250px;
+  font-size:35pt;
+  margin-top:180px;
+  margin-left:200;
 }
 .footer .btn {
   padding: 0px;
