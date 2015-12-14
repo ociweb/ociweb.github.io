@@ -215,8 +215,15 @@ h3 {
   font-family:DokChampa;
   color:#c4feff;
   font-size:35pt;
-  margin-top:180px;
-  margin-left:500px;
+  margin-top:150px;
+  margin-left:350px;
+}
+.banner-little{
+  font-family:DokChampa;
+  color:#c4feff;
+  font-size:20pt;
+  margin-top:190px;
+  margin-left:350px;
 }
 .footer .btn {
   padding: 0px;
