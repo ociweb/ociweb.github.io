@@ -173,8 +173,11 @@ h2 {
 }
 
 h1 {
-  font-family: Lato;
-  color: #ffffff;
+  "color:#c4feff;
+  size:30pt;
+  font:DokChampa;
+  margin-right:150px;
+  padding:450px;"
 }
 .head-big {
   font-family: Lato;
