@@ -172,13 +172,6 @@ h2 {
   margin-top: 57px;
 }
 
-h1 {
-  color: #c4feff;
-  size: 50pt;
-  font: DokChampa;
-  margin-right: 150px;
-  padding: 450px;
-}
 .head-big {
   font-family: Lato;
   color: #ffffff;
@@ -285,7 +278,15 @@ h3 {
   text-decoration: underline;
 }
 
-p12 {
+h1 {
+  color: #c4feff;
+  size: 50pt;
+  font: DokChampa;
+  margin-right: 150px;
+  padding: 450px;
+}
+
+.p12 p {
  color: #c4feff;
  size: 30pt;
  font: DokChampa;
