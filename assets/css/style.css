@@ -284,9 +284,10 @@ h3 {
 .footer .copyright a:hover {
   text-decoration: underline;
 }
-p {
+
+p12 {
  color: #c4feff;
- size: 10pt;
+ size: 30pt;
  font: DokChampa;
  margin-right: 150px;
 }
