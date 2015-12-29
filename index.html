@@ -1,130 +1,266 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>OCT</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
 
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="shortcut icon" href="assets/img/logo/favicon.ico" type="image/x-icon">
-</head>
-<body>
-<div>
-<div>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-text">
-                <a class="navbar-link link link-logo" href="/"></a>
-            </div>
-            <p class="navbar-text navbar-right">
-	      <a href="/"><i class="fa fa-home fa-1x"> Home</i></a>
-              <span class="separator"></span>
-	      <a href="/news"><i class="fa fa-bolt fa-1x"> News</i></a>
-              <span class="separator"></span>
-<!--    	      <a href="/cases"><i class="fa fa-database fa-1x"> Cases</i></a>
-              <span class="separator"></span>
+<link href="assets/css/style1.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+#t1 {
+	position:absolute;
+	width:769px;
+	height:396px;
+	z-index:1;
+	left: 223px;
+	top: 66px;
+}
+#apDiv1 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+}
+#apDiv2 {
+	position:absolute;
+	width:181px;
+	height:181px;
+	z-index:1;
+	left: 1054px;
+	top: 713px;
+}
+#apDiv3 {
+	position:absolute;
+	width:157px;
+	height:157px;
+	z-index:2;
+	left: 1089px;
+	top: 958px;
+}
+#apDiv4 {
+	position:absolute;
+	width:181px;
+	height:181px;
+	z-index:1;
+	left: 1071px;
+	top: 677px;
+}
+#apDiv5 {
+	position:absolute;
+	width:157px;
+	height:157px;
+	z-index:2;
+	left: 1118px;
+	top: 935px;
+}
+#apDiv6 {
+	position:absolute;
+	width:114px;
+	height:115px;
+	z-index:3;
+	left: 1116px;
+	top: 1153px;
+}
+#apDiv7 {
+	position:absolute;
+	width:113px;
+	height:113px;
+	z-index:4;
+	left: 1087px;
+	top: 1332px;
+}
+#apDiv8 {
+	position:absolute;
+	width:135px;
+	height:135px;
+	z-index:5;
+	left: 1038px;
+	top: 1487px;
+}
+#apDiv9 {
+	position:absolute;
+	width:348px;
+	height:89px;
+	z-index:6;
+	left: 1025px;
+	top: 1763px;
+}
 -->
-	      <a href="https://github.com/huawei-openlab/oct/"><i class="fa fa-github fa-1x"> Github</i></a>
-	      <span class="separator"></span>
-	      <a href="https://github.com/huawei-openlab/oct/blob/master/README.md"><i class="fa fa-file-text-o fa-1x"> Docs</i></a>
-            </p>
-        </div>
-    </nav>
-    <div class="head-empty">
-    </div>
-    <div style="background-color:#01ABC2">
-    <div class="container">
-    <div class="row">
-	    <div class="col-md-12 head-splash">
-		    <br>
-		    <h1>12345678, Reliable, Inovative</h1>
-		    <p>Dedicated to make a better container world</p>
-        </div>
-    </div>
-    </div>
-    </div>
+</style>
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_changeProp(objId,x,theProp,theValue) { //v9.0
+  var obj = null; with (document){ if (getElementById)
+  obj = getElementById(objId); }
+  if (obj){
+    if (theValue == true || theValue == false)
+      eval("obj.style."+theProp+"="+theValue);
+    else eval("obj.style."+theProp+"='"+theValue+"'");
+  }
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('assets/img/button4.png','assets/img/button3.png','assets/img/top-over.png')">
+<div id="top">
+  <table width="100%" border="0">
+    <tr>
+      <td width="248" height="65" align="right"><a href="index.html"><img src="assets/img/OTClogo-01-01_03.png" width="39" height="44" alt="logo" /></a></td>
+      <td width="550">&nbsp;</td>
+      <td width="101" align="right">Home</td>
+      <td width="94" align="right">News</td>
+      <td width="103" align="right">Github</td>
+      <td width="89" align="right">Docs</td>
+      <td width="68" align="right"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('top-button','','assets/img/top-over.png',1)"><img src="assets/img/top-button.png" name="top-button" width="24" height="15" border="0" id="top-button" /></a></td>
+      <td width="226">&nbsp;</td>
+    </tr>
+  </table>
 </div>
-<div class="container">
-    <div class="row introduction">
-	    <h2>Open container test</h2>
-    </div>
-    <div class="row">
-            <div class="col-md-6">
-                <h3>Introduction</h3>
-		<p>The whole OCT including three main components. </p>
-		<p>Tools: open source tools used to test the most popular container products.</p>
-		<p>Case: Well defined specification with json format. Any case developers could write his/her own test case, either by his/her own tool or by the 'OCT tools'.</p>
-		<p>Engine: micro service, receive testcase, deploy to the according host operation system and container and run it. Collect and generate a readable test report.</p>
-	</div>
-	<div class="col-md-6">
-                <img src="assets/img/mainframe.jpg" width="400">
-            </div>
-        </div>
-    <div class="row">
-	<div class="col-md-6">
-                <img src="assets/img/stamp.jpg" width="400">
-        </div>
-        <div class="col-md-6">
-                <h3>Scope</h3>
-		<p class="paragraph-1">The open container testing framework covers 4 parts:</p>
-		<p class="paragraph-2">Verify if a image or a runtime was complicant with the <a href="https://github.com/opencontainers/specs">OCI standard.</a> </p>
-		<p class="paragraph-2">Test the io/network and other benchmark of running a container. </p>
-		<p class="paragraph-2">Make sure if a container runtime was fragile to the security attack.</p>
-		<p class="paragraph-4">Better understand the function of each container. </p>
-        </div>
-    </div>
-    <div class="row">
-            <div class="col-md-6">
-                <h3>Tools</h3>
-		<p>Bundle Validator: verify if a image/bundle was a <a href="https://github.com/huawei-openlab/oct#standard-container">standard container.</a> 
-		<p>Runtime Validator: verify if a runtime was compliant with <a href="https://github.com/opencontainers/specs">OCI standard.</a> </p>
-		<p>Cadvisor/iperf: performance tools from community.</p>
-            </div>
-	    <div class="col-md-5">
-                <img src="assets/img/tools.jpg" width="400" height="330" align="left">
-	</div>
-    </div>
-    <div class="row">
-	    <div class="col-md-6">
-		    <img src="assets/img/case.jpg" width="400">
-	    </div>
-	    <div class="col-md-6">    
-	    <h3>Cases</h3>
-		<p>The<a href="https://github.com/huawei-openlab/oct-engine/blob/master/cases/README.md">Case</a> is easy to develop and maintain.</p>
-		<p>Using the 'case generator' tool and 'case validator' tool to make life eaiser. </p>
-		<p>Using the official casedb or<a href="https://github.com/huawei-openlab/oct-engine/blob/master/services/tcserver/README.md"> maintain own db. </a> are both OK.</p>
-            </div>
-    </div>
-    <div class="row">
-            <div class="col-md-6">
-		    <h3>Engine</h3>
-		    <p>The 'engine' composed of three services</p>
-		    <p>The test case server: provide valid test cases </p>
-		    <p>The testing server: provide servers to deploy/run tests</p>
-		    <p>The scheduler server: organize test cases and collect result</p>
-	    </div>
-	    <div class="col-md-6">
-		    <img src="assets/img/framework.jpg" width="440">
-	    </div>
-    </div>
-    </div>
-    <div class="footer">
-	    <div class="separator-hr"></div>
-	    <div class="row">
-		    <div class="col-md-6">
-			    <span class="separator"></span>
-			    Join OCT
-	      		    <a href="https://github.com/huawei-openlab/oct/" class="btn btn-default btn-github"><i class="fa fa-github fa-1x"> </i></a>
-			    <a href="https://github.com/huawei-openlab/oct/blob/master/README.md" class="btn btn-default btn-docs"><i class="fa fa-file-text-o fa-1x"></i> </a>
-		    </div><div class="col-md-6">
-			    <p class="copyright">Copyright<i class="fa fa-copyright"></i> 2015 Huawei Openlab. All Rights Reserved.</p>
-		    </div>
-	    </div>
-    </div>
+<div id="banner">
+  <table width="100%" border="0">
+    <tr>
+      <td width="137" height="420">&nbsp;</td>
+      <td width="1065"><table width="100%" height="440" border="0">
+        <tr>
+          <td align="right" valign="middle">
+          <h1>Open Reliable Inovative</h1>            
+          <h2>Dedicated to make a better container world</h2></td>
+        </tr>
+        </table>       
+      </td>
+      <td width="297">&nbsp;</td>
+    </tr>
+  </table>
 </div>
+<div id="mid">
+  <table width="100%" border="0">
+    <tr>
+      <td width="271">&nbsp;</td>
+      <td height="55px">&nbsp;</td>
+      <td width="298">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td align="center"><div id="mid1">Open container test</div></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td width="930" rowspan="5" valign="top">
+      <table width="100%" border="0">
+        <tr>
+          <td width="60%"><br /><h3>
+            <br />
+            Introduction</h3>
+                          <p>The whole OCT including three main components
+                            <br />
+                            ●  Tools: open source tools used to test the most popular container products.<br />
+                            ●  Case: Well defined specification with json format. Any case developers could
+                            <br />
+                            write his/her own test case, either by his/her own tool or by the 'OCT tools'. <br />
+                            ●  Engine: micro service, receive testcase, deploy to the according host operation
+                            <br />
+              system and container and run it. Collect and generate a readable test report. </p>
+              <h3><br />
+              Scope</h3>
+              <p>The open container testing framework covers 4 parts:<br />
+                ●  Verify if a image or a runtime was complicant with the OCI standard.<br />
+                ●  Test the io/network and other benchmark of running a container.<br />
+                ●  Make sure if a container runtime was fragile to the security attack.<br />
+              ●  Better understand the function of each container.</p>
+              <h3><br />
+              Tools              </h3>
+              <p>●  Bundle Validator: verify if a image/bundle was a standard container.<br />
+                ●  Runtime Validator: verify if a runtime was compliant with OCI standard.<br />
+              ●  Cadvisor/iperf: performance tools from community.</p>
+              <h3><br />
+              Cases              </h3>
+              <p>●  TheCase is easy to develop and maintain.<br />
+                ●  Using the 'case generator' tool and 'case validator' tool to make life eaiser.<br />
+              ●  Using the official casedb or maintain own db. are both OK.</p>
+              <h3><br />
+              Engine              </h3>
+              <p>The 'engine' composed of three services<br />
+                ●  The test case server: provide valid test cases<br />
+                ●  The testing server: provide servers to deploy/run tests<br />
+              ●  The scheduler server: organize test cases and collect resultv</p>
+              <h3><br />
+              </h3></td>
+          <td><div id="apDiv4"><img src="assets/img/introduction-image.png" width="220" height="229" /></div>
+            <div id="apDiv5"><img src="assets/img/scope-image.png" width="191" height="191" /></div>
+            <div id="apDiv7"><img src="assets/img/cases-img.png" width="137" height="137" /></div>
+            <div id="apDiv8"><img src="assets/img/engine-img.png" width="124" height="124" /></div></td>
+        </tr>
+      </table>
+      <h3>&nbsp;</h3></td
+      ><td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><div id="apDiv6"><img src="assets/img/tools-img.png" width="156" height="156" /></div></td>
+    </tr>
+    <tr>
+      <td height="250">&nbsp;</td>
+      <td><div id="apDiv9">
+        <table width="100%" height="87" border="0">
+          <tr>
+            <td align="right"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('buttong','','assets/img/button3.png',1)"><img src="assets/img/button1.png" name="buttong" width="152" height="67" border="0" id="buttong" /></a></td>
+            <td align="right"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('buttond','','assets/img/button4.png',1)"><img src="assets/img/button2.png" name="buttond" width="152" height="67" border="0" id="buttond" /></a></td>
+          </tr>
+        </table>
+      </div></td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
 </div>
+<div id="bottom">
+  <table width="100%" border="0">
+    <tr>
+      <td width="18%" height="54">&nbsp;</td>
+      <td width="62%"><table width="100%" border="0">
+        <tr>
+          <td width="46%">join OCT</td>
+          <td width="54%" align="right">Copyright&copy; 2015 Huawei Openlab. All Rights Reserved.</td>
+        </tr>
+      </table></td>
+      <td width="20%">&nbsp;</td>
+    </tr>
+  </table>
 </div>
+<p>&nbsp;</p>
 </body>
 </html>

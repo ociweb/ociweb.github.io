@@ -1,0 +1,76 @@
+#top table {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	background-color: #222222;
+	color: #00b6ec;
+	height: 58px;
+}
+#top {
+	position: fixed;
+	width: 100%;
+	z-index: 12;
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#eaffff;
+	background-image:url(images/bg01_02.png);
+	background-repeat:no-repeat;
+	
+}
+
+#banner {
+	font-family: DokChampa;
+	background-color: #00c0c5;
+	height:450px;
+	width:100%;	
+}
+#bottom {
+	background-color: #222;
+	height: 60px;
+	color: #00b6ec;
+}
+h1 {
+	font-family: DokChampa;
+	font-size: 62px;
+	color: #c4feff;
+	line-height: 68px;
+}
+#mid1 {
+	font-family: DokChampa;
+	font-size: 36px;
+	color: #c4feff;
+	background-color: #093f6b;
+	height: 70px;
+	width: 360px;
+	float: left;
+}
+#banner table tr td table tr td {
+	background-image: url(images/banner-image.png);
+	background-repeat: no-repeat;
+}
+h2 {
+	font-family: DokChampa;
+	font-size: 26px;
+	color: #c4feff;
+	line-height: 32px;
+}
+h3 {
+	font-family: DokChampa;
+	font-size: 36px;
+	color: #093f6b;
+	line-height: 36px;
+	text-align: left;
+	vertical-align: text-top;
+	margin: 0px;
+	padding: 0px;
+}
+p {
+	font-family: DokChampa;
+	font-size: 14px;
+	color: #030000;
+	line-height: 22px;
+}
