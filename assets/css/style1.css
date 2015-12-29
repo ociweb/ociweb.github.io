@@ -17,7 +17,7 @@ body {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	background-color:#eaffff;
-	background-image:url(images/bg01_02.png);
+	background-image:url(assets/img/bg01_02.png);
 	background-repeat:no-repeat;
 	
 }
@@ -49,7 +49,7 @@ h1 {
 	float: left;
 }
 #banner table tr td table tr td {
-	background-image: url(images/banner-image.png);
+	background-image: url(assets/img/banner-image.png);
 	background-repeat: no-repeat;
 }
 h2 {
