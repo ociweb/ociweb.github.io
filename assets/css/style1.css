@@ -273,7 +273,7 @@ a:active {
 @charset "utf-8";
 #newsbg {
 	background-color: #eaffff;
-	background-image: url(images/newsimg/newsbg.png);
+	background-image: url(../img/newsbg.png);
 	background-repeat: no-repeat;
 	height: 2400px;
 	width: 100%;
@@ -292,7 +292,7 @@ a:active {
 	background-color: #093f6b;
 	height: 20%;
 	width: 100%;
-	background-image: url(assets/img/newsBanner.png);
+	background-image: url(../img/newsBanner.png);
 	background-repeat: repeat-y;
 	background-position: center bottom;
 }
