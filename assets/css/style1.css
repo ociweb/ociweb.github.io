@@ -404,7 +404,7 @@ h2 {
 #text1 {
 	position:absolute;
 	width:81%;
-	height:696px;
+	height:49%;
 	z-index:4;
 	left: 19%;
 	top: 0px;
@@ -413,7 +413,7 @@ h2 {
 #text2 {
 	position:absolute;
 	width:100%;
-	height:296px;
+	height:21%;
 	z-index:5;
 	top: 736px;
 	right: 0%;
@@ -437,7 +437,7 @@ h2 {
 #text3 {
 	position:absolute;
 	width:81%;
-	height:463px;
+	height:32%;
 	z-index:6;
 	left: 19%;
 	top: 1072px;
