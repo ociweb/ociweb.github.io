@@ -1,7 +1,7 @@
 @charset "utf-8";
 #zong {
 	background-color: #eaffff;
-	background-image: url(assets/img/bg01.png);
+	background-image: url(../img/bg01.png);
 	background-repeat: no-repeat;
 	margin: 0px;
 	padding: 0px;
