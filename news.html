@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+//-->
+</script>
+<link href="style2.css" rel="stylesheet" type="text/css" />
+</head>
+<body onload="MM_showHideLayers('apDiv13','','hide');MM_showHideLayers('fw','','hide');MM_showHideLayers('gj','','hide');MM_showHideLayers('cs','','hide');MM_showHideLayers('yq','','hide');MM_showHideLayers('js','','hide');MM_showHideLayers('dX','','hide');MM_preloadImages('images/button3.png','images/button4.png')">
+<div class="newsbg" id="newsbg">
+  <div class="newsbg" id="newszong">
+  <div id="top">
+    <table width="100%" border="0">
+      <tr>
+        <td width="19%" height="59"><a href="index2.html"><img src="images/OTClogo1.png" width="43" height="49" /></a></td>
+        <td align="left">&nbsp;</td>
+        <td width="8%"><a href="index2.html">Home</a></td>
+        <td width="8%"><a href="http://oct.news/news/">News</a></td>
+        <td width="8%"><a href="https://github.com/">Github</a></td>
+        <td width="7%"><a href="#">Docs</a></td>
+        <td width="5%"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('topbutton','','images/top over.png',1)"><img src="images/top button.png" name="topbutton" width="24" height="15" border="0" id="topbutton" /></a></td>
+        <td width="13%">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="newsbanner"></div>
+  <div id="newszt">
+    <div id="newsmidtext">
+      <div id="newsapDiv7">
+        <table width="100%" height="112" border="0">
+          <tr>
+            <td align="right"><a href="https://github.com/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('midbutton','','images/button3.png',1)"><img src="images/button1.png" name="midbutton" width="152" height="67" border="0" id="midbutton" /></a></td>
+            <td align="right"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('midbutton2','','images/button4.png',1)"><img src="images/button2.png" name="midbutton2" width="152" height="67" border="0" id="midbutton2" /></a></td>
+          </tr>
+        </table>
+      </div>
+      <div id="text1">
+        <h2>OCT introduction</h2>
+        <p><span class="p">2014-05-08 22:43:17 -0400   liangchenye<br>           
+          OCT: Open Container Testing<br>           
+          The OCT project aims to promote the Open Container Initiative by providing a universal open container testing libs or tools.<br>           
+          OCT scope Following the OCI Principles: OCT covers following areas: - Bundle Validator verifies if a bundle was a Standard Container. - Runtime Validator <br>           
+          verifies if a runtime runs the bundle correctly.<br>           
+          To make OCT easier, more tools are required: - OCI builder - build a native OCI bundle - OCI generator - generate a minimal config.json/runtime.json - OCI <br>           
+          convert - convert from other images, like rkt.<br>           
+          Standard Container A standard container should be a bundle with one standard ‘config.json’, one standard ‘runtime.json’ and one standard ‘rootfs’.<br>           
+          Compliant Runtime A compliant runtime should be the one which could run a standard container correctly, either runs directly or indirectly<br>           
+          Correctly means running by a runtime, all the mounts, uid, and other informations should be exactly same with what defined in config.json/runtime.json.<br>           
+          Directly means a runtime could run a standard container without any extra action, just like ‘runC’.<br>           
+          Indirectly means a runtime(runX) could not run a standard container directly. RunX needs to get a runX-bundle converted from an oci-bundle first and then <br>           
+          runs runX-bundle.Conversion tools Conversion tools One implementaion of converting from OCI to ACI is hosted at: oci2aci<br>           
+          Getting Started<br>           
+          •	Fork the repository on GitHub<br>           
+          •	Read the ‘build and test instruction’ for Bundle Validator and Runtime Validator<br>           
+          •	Play with the project, submit bugs, submit patches!<br>           
+          How to involve If any issues are encountered while using the oct project, several avenues are available for support:<br>           
+          Issue Tracker	https://github.com/huawei-openlab/oct/issues<br>           
+          Google Groupshttps://groups.google.com/forum/!forum/oci-testing<br>           
+          Who should join - Open Container project developer/user<br>           
+          Changes The engine part is now moved to oct-engine The cases part is now moved to oct-engine/cases</span><br>
+        </p>
+      </div>
+      <div id="text2">
+        <div id="text2t">
+          <h2>OCT roadmap</h2>
+          <p>2014-05-08 22:43:17 -0400   zenlinTechnofreak<br />
+            Roadmap<br />
+            This document defines the high-level goals of the ocp-testing project. See Project Planning for information on Releases<br />
+            Long-term Goal<br />
+            Short-term Goals<br />
+            Project Planning<br />
+            Project Pages define the goals for each Milestone.</p>
+        </div>
+        <div id="text2bg"></div>
+      </div>
+      <div id="text3">
+        <h2>OCT tools</h2>
+        <p>2015-10-12 22:43:17 -0400   chengtiesheng<br />
+          The tools for open container test will be maintained here.<br />
+          bundleValidator - specs/(bundle, config.json, runtime.json) The bundleValidator is a rolling release tool which keeps updating <br />
+          with OCI specs. It verifies if a bundle was a standard container, if a config.json/runtime.json is a standard configuration file.<br />
+          The option(genconfig/genruntime) in bundleValidator is used to generate a demo config.json/runtime.json.<br />
+          runtimeValidator - specs/(runtime, config) The runtimeValidator verifies if a runtime containers runs the bundle correctly, test its compliance to opencontainers<br />
+          /specs.ociConvert - convert from other container images So far, image configurations compliants to AppC spec could be converted into OCI configurations.<br />
+          Make OCT better We will also list other container testing tools here. Please tell us and update this file by using the following format:</p>
+        <p>[tool name](tool url) - tool function<br />
+          tool description</p>
+        <p>OCT with Other project OCT &amp; OCT-Engine It is very easy to write a testcase under the OCT-engine. The testcase using bundleValidator as the testing tool is<br />
+listed here: https://github.com/huawei-openlab/oct-engine/blob/master/cases/bundle/config.json    </p>
+      </div>
+    </div>
+  </div>
+  <div id="newsbutton">
+    <table width="100%" border="0">
+      <tr>
+        <td width="19%" height="56" align="right"><a href="#">JoinOCT</a></td>
+        <td align="right"><a href="#">Copyright &copy; 2015 Huawei Openlab. All Rights Reserved.</a></td>
+        <td width="18%">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+</div>
+</div>
+</body>
+</html>
