@@ -292,7 +292,7 @@ a:active {
 	background-color: #093f6b;
 	height: 20%;
 	width: 100%;
-	background-image: url(images/newsimg/newsBanner.png);
+	background-image: url(assets/img/newsBanner.png);
 	background-repeat: repeat-y;
 	background-position: center bottom;
 }
